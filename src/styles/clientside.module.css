@@ -1,0 +1,6 @@
+.card {
+  border: solid green 1px;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1em;
+}

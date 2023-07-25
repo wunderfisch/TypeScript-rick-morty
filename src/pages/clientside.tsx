@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
-import styles from "@/styles/clientside.module.css";
+import styles from "@/styles/card.module.css";
 
 interface CharacterType {
   id: number;
@@ -51,7 +51,7 @@ export default function ClientSideComponent() {
       <Head>
         <title key="title">CSR</title>
       </Head>
-
+      {/* here we can have a <Head> but it won't have much effect on crawlers since the site is not rendered when the crawler scraps the info */}
       <div>
         <h1>Client Side Render - CSR</h1>
         <p>This page is rendered by the browser, on the client.</p>

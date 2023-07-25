@@ -1,3 +1,4 @@
+import NavBar from "@/components/NavBar";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Inter } from "next/font/google";
@@ -16,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
 
       <div className={inter.className}>
-        <p>Navbar placeholder</p>
+        <NavBar />
         <Component {...pageProps} />
       </div>
     </>
